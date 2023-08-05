@@ -1,0 +1,12 @@
+first.txt
+<<<<<<< HEAD
+fghjfdgj
+fjdi
+sdfjd
+hdfjd
+hfd'fbdf
+dfhdf
+fh
+djgkdkl
+=======
+>>>>>>> develop
