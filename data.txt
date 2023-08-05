@@ -1,2 +1,3 @@
-update
+delete
 inserted
+update
