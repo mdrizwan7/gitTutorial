@@ -1,2 +1,4 @@
-delete
-update
+receving
+added
+home
+flat
