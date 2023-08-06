@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 edited on local using git
-=======
 getting
 subtracted
 home
 flat:
->>>>>>> develop
