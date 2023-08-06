@@ -1,10 +1,10 @@
 git tutorial
 
 #setting user name
-$ git config --global user.name "Rizwan"
+$ git config --global user.name "username"
 
 #setting email
-$ git config --global user.email "mdrizwan1877@gmail.com"
+$ git config --global user.email "useremail@gmail.com"
 
 #To see user info
 $ git config user.name
@@ -13,8 +13,8 @@ $ git config user.email
 #How to check status for any folder/directory
 $ git status
 
-**Don't run $ git init if your git repo is already present otherwise 
-**new git repo will replace your repository
+//Don't run $ git init if your git repo is already present otherwise 
+//new git repo will replace your repository
 #Making new repository
 $ git init
 
@@ -29,16 +29,21 @@ $ git commit -m "m_e_s_s_a_g_e"
 #To remove or delete a git repository
 $ rm -rf .git
 
-#To clone a remote git repository from GitHub
+#To clone a remote git repository from GitHub/Any
 $ git clone <url>
 
 #To paste in git bash terminal shortcut : { Shift+Insert }
 
-#You can view all of your settings and where they are coming from using:
+#You can view all of your settings and where they are using:
 $ git config --list --show-origin
+//To view only settings
+$ git config --list
 
-#Git help commands
-$ git config -h 	// a quick refresher 
+#git help commands
+$ git <command> -h
+//for ex:
+$ git config -h || $ git config -help	// a quick refresher 
+$ git config --help  // open a manual page for that command
 
 #if you need to ignore some files from getting tracked
 //1. create .gitignore
@@ -65,7 +70,7 @@ $ git commit -a -m "m_e_s_s_a_g_e"
 //this will skip the staging area and directly commit
 //this will not commit untracked files
 
-#if a file is being tracked and now you do not wish to track it
+#if a file is already getting tracked and now you do not wish to track it
 //1. add <file_name> to .gitignore
 //2. now you have to explicitly tell git to not track <file_name>
 $ git rm --cached <file_name>
