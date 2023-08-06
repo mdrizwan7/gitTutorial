@@ -4,7 +4,9 @@ git tutorial
 $ git config --global user.name "username"
 
 #setting email
+```
 $ git config --global user.email "useremail@gmail.com"
+```
 
 #To see user info
 $ git config user.name
