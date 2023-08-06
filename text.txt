@@ -1,2 +1,0 @@
-this is text.txt of develop branch
-i want to merge it in master
