@@ -1,7 +1,9 @@
 git tutorial
 
 #setting user name
+```
 $ git config --global user.name "username"
+```
 
 #setting email
 ```
@@ -9,8 +11,10 @@ $ git config --global user.email "useremail@gmail.com"
 ```
 
 #To see user info
+```
 $ git config user.name
 $ git config user.email
+```
 
 #How to check status for any folder/directory
 $ git status
